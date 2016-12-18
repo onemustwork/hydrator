@@ -1,0 +1,19 @@
+{
+    "name": "onemustwork/hydrator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeffrey Buitenhuis",
+            "email": "jeffrey@onemustwork.nl"
+        }
+    ],
+    "require": {
+        "symfony/serializer": "^3.2",
+        "symfony/property-access": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OneMustWork\\": "src/"
+        }
+    }
+}
