@@ -2,7 +2,7 @@
     "name": "onemustwork/hydrator",
     "description": "Easy to use hydrator to hydrate objects from an array or extract objects to an array.",
     "keywords": ["hydrator", "simple", "object", "array"],
-    "license": "MIT",git
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
