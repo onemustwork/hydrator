@@ -1,5 +1,8 @@
 {
     "name": "onemustwork/hydrator",
+    "description": "Easy to use hydrator to hydrate objects from an array or extract objects to an array.",
+    "keywords": ["hydrator", "simple", "object", "array"],
+    "license": "MIT",git
     "type": "library",
     "authors": [
         {
@@ -8,6 +11,7 @@
         }
     ],
     "require": {
+        "php": ">=5.6.4",
         "symfony/serializer": "^3.2",
         "symfony/property-access": "^3.2"
     },
