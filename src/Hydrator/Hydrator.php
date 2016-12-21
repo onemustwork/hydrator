@@ -12,17 +12,17 @@ use Symfony\Component\Serializer\Serializer;
 class Hydrator implements HydratorInterface
 {
     /** @var array */
-    protected $normalizers;
+    protected $normalizers = [];
 
     /** @var array */
-    protected $serializers;
+    protected $serializers = [];
 
     /**
      * Hydrator constructor.
      */
     public function __construct()
     {
-        $this->normalizers = [new ObjectNormalizer()];
+        $this->normalizers[] = new ObjectNormalizer();
 }
 
     /**
